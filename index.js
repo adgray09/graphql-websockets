@@ -44,7 +44,7 @@ sendBtn.onclick = function () {
         showMessage("No WebSocket connection :(");
         return;
     }
-
+    // grab date and stuff
     var today = new Date();
     var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
     // Create an object:
