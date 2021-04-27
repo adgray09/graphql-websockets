@@ -11,7 +11,7 @@ let ws
 function showMessage(message) {
     const time = message.date;
 
-    messages.innerHTML += `${time} ${message.name}: ${message.message}\n\n <br>`  // display the message
+    messages.innerHTML += `${time} ${message.name}: ${message.message}\n\n <br><hr>`  // display the message
     messages.scrollTop = messages.scrollHeight // scroll to the top
     messageInput.value = '' // clear the input field
 }
